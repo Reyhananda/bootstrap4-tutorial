@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Form</title>
+    <link rel="stylesheet" href="./bootstrap4/bootstrap-4.6.0-dist/css/bootstrap.css">
+</head>
+<body class="p-3">
+    <!-- <table class="table table-hover  table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Job</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-success">
+                <td>Sample</td>
+                <td>Sample</td>
+                <td>Sample</td>
+            </tr>
+            <tr class="table-primary">
+                <td>Sample</td>
+                <td>Sample</td>
+                <td>Sample</td>
+            </tr>
+            <tr class="table-secondary">
+                <td>Sample</td>
+                <td>Sample</td>
+                <td>Sample</td>
+            </tr>
+        </tbody>
+    </table> -->
+    <form class="">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input placeholder="Type Here" type="text" class="form-control" id="username">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input placeholder="Type Here" type="email" class="form-control" id="email">
+        </div>
+    </form>
+
+    <!-- Ini Kalo Mau di Awal (Prepend) -->
+    <label for="prepend-testing">Berat Badan</label>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">Kilogram</span>
+        </div>
+        <input placeholder="Type Here" type="text" class="form-control" id="prepend-testing">
+    </div>
+    
+    <!-- Ini Kalo Mau diakhir (Append) -->
+    <label for="append-testing">Berat Badan</label>
+    <div class="input-group">
+        <input placeholder="Type Here" type="text" class="form-control" id="append-testing">
+        <div class="input-group-append">
+            <span class="input-group-text">Kilogram</span>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
